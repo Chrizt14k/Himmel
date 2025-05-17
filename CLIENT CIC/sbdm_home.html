@@ -8,6 +8,15 @@
 </head>
 <body>
   <header>
+    
+     <!-- This creates a background that cycles between photos, essentially these are images layered on top of each other-->
+     <!-- The photos have a transparent opacity except for the photo with the "show" property which javascript cycles to the other images -->
+      <div class="background">
+        <img class="show slideshow" src="images/office1.jpeg">
+        <img class="slideshow" src="images/landscaping2.jpeg">
+        <img class="slideshow" src="images/living3.jpeg">
+      </div>
+
     <nav>
    <div class="logo">
      <a href="sbdm_home.html">
@@ -52,6 +61,15 @@
       <img src="images/dining1.jpeg"alt="9">
       <img src="images/dining1.jpeg"alt="10">
     </div>
+    
+    <!-- modal popup -->
+    <div class="popup-img">
+      <span>&times;</span>
+      <img src="images/outside1.jpeg" alt="">
+    </div>
+    <!-- modal popup end -->
+
+
     <div class="button-center">
       <a href="sbdm_contact.html" class="button">CONTACT US</a>
     </div>
@@ -142,6 +160,6 @@
     </div>
     <p>©S and E Technical Services LLC</p>
   </footer>
-  
+  <script src="script.js"></script>
 </body>
 </html>
